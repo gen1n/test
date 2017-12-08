@@ -48,7 +48,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.Path_1_0, new cjs.Rectangle(0,0,25,28), null);
+}).prototype = getMCSymbolPrototype(lib.Path_1_0,  cjs.Rectangle(0,0,25,28), null);
 
 
 (lib.Path_0 = function(mode,startPosition,loop) {
@@ -61,7 +61,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.Path_0, new cjs.Rectangle(0,0,152.4,111.2), null);
+}).prototype = getMCSymbolPrototype(lib.Path_0,  cjs.Rectangle(0,0,152.4,111.2), null);
 
 
 (lib.Tween2 = function(mode,startPosition,loop) {
