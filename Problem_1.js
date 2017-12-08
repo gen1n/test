@@ -35,7 +35,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.Path_1_0copy, new cjs.Rectangle(0,0,25,28), null);
+}).prototype = getMCSymbolPrototype(lib.Path_1_0copy, cjs.Rectangle(0,0,25,28), null);
 
 
 (lib.Path_1_0 = function(mode,startPosition,loop) {
